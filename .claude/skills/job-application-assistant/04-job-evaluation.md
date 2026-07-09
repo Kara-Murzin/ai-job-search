@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** PHP, Symfony, Laravel, Vue.js, JavaScript, PostgreSQL, MySQL, Redis, REST API design, database design/optimization
+**Moderate match areas:** AWS, Terraform, Docker, React/TypeScript (Astana Hub course), frontend performance optimization
+**Weak match areas:** Native mobile (iOS/Android), roles requiring Japanese language proficiency
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** PHP/Symfony backend development, Vue.js frontend development, fullstack web application development
+**Moderate:** DevOps/infra tasks (Docker, AWS, Terraform), OCR/data-processing pipelines
+**Entry-level:** Pure database engineering roles (only 3 months intern experience), team lead/management roles
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,9 +47,12 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Based in Japan: required for visa sponsorship - PASS only if company is Japan-based and sponsors visas
+- Remote: PASS
+- Office-based / requires on-site presence: FAIL (deal-breaker - remote only)
+- Requires relocation outside Japan: FAIL (deal-breaker)
+- Requires Japanese language proficiency: FAIL (deal-breaker)
+- Visa sponsorship not offered: FAIL (deal-breaker)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -63,19 +66,28 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Grow as a fullstack/backend developer (PHP/Symfony core, open to frontend and broader software engineer roles)
+- Work with new technologies and AI-assisted development tools (e.g. Claude Code) rather than stagnant legacy stacks
+- Move from solo/small-team dev work into a larger, collaborative team environment
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: working with new technologies, shipping new features, using AI tools to develop faster, working as part of a team
+- Tasks that drain: solo work with no team interaction, being expected to work weekends/overtime
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed full-time (Samuray Boeki) plus a concurrent contract (Kotomoto Consulting) - not searching out of urgency
+- **Flexibility**: Remote-only, no weekend work
+- **Professional development**: Wants exposure to new tech stacks and AI-assisted engineering practices
+
+**Deal-breakers (hard filters, apply before scoring):**
+- iGaming or Crypto industry
+- Non-remote / office-required roles
+- Roles outside Japan or requiring relocation
+- Roles requiring Japanese language proficiency
+- Roles without visa sponsorship
+
+**Target companies to watch:** Rakuten, Mercari, PayPay, Google (Japan), Woven (Woven by Toyota)
 
 ### 6. Salary Benchmark (Optional)
 

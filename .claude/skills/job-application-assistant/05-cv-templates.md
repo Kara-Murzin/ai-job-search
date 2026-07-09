@@ -105,12 +105,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Backend/PHP-Symfony Developer roles:**
+> PHP fullstack developer with 2+ years building and optimizing backend systems in Symfony and Laravel, including API design, PostgreSQL database design, and Redis caching. Experienced in refactoring legacy code into modular components and improving system performance. Comfortable working across the stack, from database design to Vue.js frontends, and adopting AI-assisted development tools such as Claude Code to ship features faster.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Fullstack/Web Developer/Software Engineer roles:**
+> Fullstack web developer with hands-on experience across PHP/Symfony/Laravel backends, PostgreSQL/MySQL/Redis data layers, and Vue.js/JavaScript frontends. Has built and maintained internal business systems and APIs serving 50+ users, and delivered OCR-based document processing at 95-98% accuracy. Motivated by adopting new technologies and AI-assisted development to continuously improve system quality and performance.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

@@ -1,0 +1,60 @@
+{
+  "seen": {
+    "https://japan-dev.com/jobs/paypay/paypay-frontend-engineer-el36re": {
+      "title": "Frontend Engineer",
+      "company": "PayPay",
+      "url": "https://japan-dev.com/jobs/paypay/paypay-frontend-engineer-el36re",
+      "first_seen": "2026-07-08",
+      "fit": "high",
+      "status": "new"
+    },
+    "https://japan-dev.com/jobs/paypay-securities/paypay-securities-backend-engineer-ljuyvo": {
+      "title": "Backend Engineer",
+      "company": "PayPay Securities",
+      "url": "https://japan-dev.com/jobs/paypay-securities/paypay-securities-backend-engineer-ljuyvo",
+      "first_seen": "2026-07-08",
+      "fit": "medium",
+      "status": "new"
+    },
+    "https://japan-dev.com/jobs/givery/givery-backendfullstack-engineer-eea6b9": {
+      "title": "Backend/Fullstack Engineer",
+      "company": "Givery",
+      "url": "https://japan-dev.com/jobs/givery/givery-backendfullstack-engineer-eea6b9",
+      "first_seen": "2026-07-08",
+      "fit": "medium",
+      "status": "new"
+    },
+    "https://japan-dev.com/jobs/indeed/indeed-fullstack-software-engineer-dk925e": {
+      "title": "Fullstack Software Engineer",
+      "company": "Indeed",
+      "url": "https://japan-dev.com/jobs/indeed/indeed-fullstack-software-engineer-dk925e",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "new"
+    },
+    "https://japan-dev.com/jobs/wovn_technologies/wovn-technologies-fullstack-engineer-g8140j": {
+      "title": "Fullstack Engineer",
+      "company": "Wovn Technologies",
+      "url": "https://japan-dev.com/jobs/wovn_technologies/wovn-technologies-fullstack-engineer-g8140j",
+      "first_seen": "2026-07-08",
+      "fit": "medium",
+      "status": "skipped"
+    },
+    "https://japan-dev.com/jobs/jamm/jamm-backend-developer-n7o3sk": {
+      "title": "Backend Developer",
+      "company": "Jamm",
+      "url": "https://japan-dev.com/jobs/jamm/jamm-backend-developer-n7o3sk",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "https://startup.jobs/software-engineer-backend-foundation-php-mysql-mercari-mercari-inc-3056002": {
+      "title": "Software Engineer, Backend/Foundation (PHP/MySQL)",
+      "company": "Mercari",
+      "url": "https://startup.jobs/software-engineer-backend-foundation-php-mysql-mercari-mercari-inc-3056002",
+      "first_seen": "2026-07-08",
+      "fit": "high",
+      "status": "skipped"
+    }
+  }
+}

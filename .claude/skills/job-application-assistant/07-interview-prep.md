@@ -12,28 +12,59 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+## STAR Candidates (Complete Manually)
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+*[Inferred from CV - Samuray Boeki / Kotomoto Consulting. These are stubs: fill in Situation/Task/Action/Result detail before relying on them in an interview.]*
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Legacy PHP refactor and modularization (Samuray Boeki)
+**Source:** CV - Samuray Boeki, PHP Fullstack Developer
+**What happened:** Refactored legacy PHP code and split functionality into modular components to improve system performance.
+**Why it matters:** Answers questions about handling legacy code, technical debt, and improving system performance.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### Redis-based caching for API performance (Samuray Boeki)
+**Source:** CV - Samuray Boeki, PHP Fullstack Developer
+**What happened:** Implemented Redis-based caching to improve API response time and reduce database load.
+**Why it matters:** Answers questions about performance optimization and concrete measurable impact.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Internal Kanban system serving 50+ users (Kotomoto Consulting)
+**Source:** CV - Kotomoto Consulting, PHP Backend Developer
+**What happened:** Developed and maintained an internal web system (Kanban) using PHP and REST APIs, used by 50+ users.
+**Why it matters:** Answers questions about building internal tools, scale/ownership, and stakeholder impact.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### OCR-based document processing pipeline (Kotomoto Consulting)
+**Source:** CV - Kotomoto Consulting, PHP Backend Developer
+**What happened:** Implemented OCR-based data processing for financial and logistics documents at 95-98% accuracy.
+**Why it matters:** Answers questions about tackling ambiguous/novel technical problems and delivering measurable accuracy.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Excel Compare Tool for financial analysts (independent project)
+**Source:** CV - Independent Project (React, Symfony, PHP)
+**What happened:** Built a tool for financial analysts to compare datasets with 10,000+ rows with automated filtering and diff-highlighting.
+**Why it matters:** Answers questions about self-directed projects, initiative, and fullstack ownership (React + Symfony).
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
 ## Common Tough Questions
 

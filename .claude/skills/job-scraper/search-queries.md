@@ -4,67 +4,64 @@
 
 ## Search Sites
 
-Primary (Danish job market):
-- **jobindex.dk** - largest Danish job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: Denmark / your city)
-- **karriere.dk** - IDA's job board (engineering/science roles)
-- **jobfinder.dk** - another major Danish job board
-- **akademikernes.dk** - academic union job board
+**Note:** The built-in job-scraper CLI tools in this framework target Danish portals (Jobindex, Jobbank, etc.) and do not apply here. Zhanserik is based in Japan and needs Japan-based, visa-sponsoring employers. Until a dedicated portal integration exists (see `/add-portal`), use Google `site:` searches and manual LinkedIn searches against these sites:
+
+Primary (Japan job market):
+- **linkedin.com/jobs** - filter: Japan, Remote
+- **indeed.com** (Japan) - broad coverage, filter remote + visa sponsorship mentions
+- **japan-dev.com** - English-friendly tech jobs in Japan, has remote/visa filters
+- **daijob.com** - bilingual/foreign-friendly jobs in Japan
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for target companies (Rakuten, Mercari, PayPay, Google, Woven)
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. "Copenhagen", "Sjælland", "Hovedstaden") where the site supports it.
+Queries are grouped by priority. All roles must be **remote** and at a **Japan-based employer offering visa sponsorship** - filter out office-required, non-Japan, or Japanese-language-required postings regardless of category.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Backend / PHP-Symfony Developer
 
-These match your strongest and most desired career direction.
-
-```
-site:jobindex.dk "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:jobindex.dk "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+Strongest and most desired career direction.
 
 ```
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:japan-dev.com "PHP" "Symfony" remote
+site:linkedin.com/jobs "PHP Developer" Japan remote visa sponsorship
+site:indeed.com "Symfony" OR "Laravel" developer Japan remote
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Fullstack / Web Developer
 
-Adjacent roles you could pivot into.
-
-```
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Matches core fullstack experience (PHP + Vue.js).
 
 ```
-site:jobindex.dk [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:jobindex.dk "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:japan-dev.com "fullstack" OR "full stack" developer remote
+site:linkedin.com/jobs "Web Developer" Japan remote visa sponsorship
+site:daijob.com "fullstack developer" remote
+```
+
+### Priority 3: Frontend / Software Engineer
+
+Adjacent roles to pivot into.
+
+```
+site:japan-dev.com "frontend" Vue.js OR React remote
+site:linkedin.com/jobs "Software Engineer" Japan remote visa sponsorship
+```
+
+### Priority 4: Broader Technical
+
+Wider net.
+
+```
+site:japan-dev.com PHP OR Symfony OR Vue.js remote visa
+site:indeed.com "software engineer" remote Japan visa sponsorship
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Remote-only, Japan-based employer (for visa sponsorship). No commute distance applies:
+- **Acceptable:** Fully remote, employer legally based in Japan, sponsors work visas, no Japanese language requirement
+- **Too far / exclude:** Office-required roles, non-Japan employers, roles requiring Japanese proficiency, roles that don't sponsor visas
 
 ## Date Filter
 

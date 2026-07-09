@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Zhanserik Kara-Murzin
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Zhanserik Kara-Murzin, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +16,64 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Zhanserik Kara-Murzin
+- **Location:** Toyama, Japan (remote-only; requires visa sponsorship, so scope is Japan-based employers)
+- **Languages:** Japanese (Basic), English (B2), Russian (Native), Kazakh (Native)
+- **Status:** Employed full-time (Samuray Boeki) + concurrent contract (Kotomoto Consulting)
+- **LinkedIn headline:** "PHP Fullstack Developer | Symfony, Laravel, Vue.js"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **BSc in Computer Science** (2019-2023) - Almaty Technological University, Kazakhstan (GPA 3.52/4.0)
+- **Advanced JavaScript, React, and TypeScript Course** (2023-2024) - Astana Hub, Remote
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **PHP Fullstack Developer** (June 2024 - Present) - **Samuray Boeki** (Toyama, Japan)
+  - Refactored legacy PHP code into modular components, improving system performance
+  - Implemented Redis-based caching to improve API response time
+  - Optimized frontend performance with JavaScript and Vue.js
+- **PHP Backend Developer (Contract)** (Dec 2025 - Present) - **Kotomoto Consulting** (Remote)
+  - Built internal Kanban web system (PHP + REST APIs) serving 50+ users
+  - Implemented OCR-based document processing at 95-98% accuracy
+  - Designed and maintained PostgreSQL databases for internal tools
+- **Database Engineer Intern (FinTech)** (Feb 2023 - May 2023) - **Otbasy Bank** (Almaty, Kazakhstan)
+  - PostgreSQL database design, query optimization, data integrity
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** PHP, Symfony, Laravel, Vue.js, JavaScript, SQL
+- **Secondary:** React, TypeScript, AWS, Terraform, Docker
+- **Domain:** Backend/API development, database design, fullstack web applications
+- **Software:** PostgreSQL, MySQL, Redis, PHPStan, Sentry, Git
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Advanced JavaScript, React, and TypeScript Course** - Astana Hub - completed 2024
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None listed
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
+<!-- No formal assessment - self-described -->
+- **Team-oriented** - finds solo work draining, prefers collaborating with a team
+- **Adaptive pace** - fast/pragmatic under urgency, deliberate otherwise
+- **Strengths:** Adopts new technologies readily, motivated to ship new features
 - **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Thrives in:** Remote, team-based environments with room to introduce new tools/tech, no weekend work expected
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Working with new technologies and shipping new features
+- Using AI-assisted development tools (e.g. Claude Code) to build faster
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Tech/e-commerce: Rakuten, Mercari, PayPay
+- Big tech / mobility: Google (Japan), Woven (Woven by Toyota)
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- iGaming or Crypto industry
+- Non-remote / office-required roles
+- Roles outside Japan, requiring relocation, or requiring Japanese language proficiency
+- Roles without visa sponsorship
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
